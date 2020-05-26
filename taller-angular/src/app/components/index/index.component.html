@@ -1,0 +1,46 @@
+<div class="carruselItem" *ngFor="let destacado of destacados">
+    <img style="max-width: 100%;" [src]="destacado.img" alt="">
+    <a id="drink">
+    <img [src]="iconos[0]" alt="">
+    <h2>{{destacado.frase1}}</h2>
+    </a>
+    <a id="eat">
+    <img [src]="iconos[1]" alt="">
+    <h2>{{destacado.frase2}}</h2>
+    </a>
+</div>
+<div class="slogan">
+<p>{{slogan}}</p>
+</div>
+<div class="eventos" id="viaje">
+    <h1>Si no sabes hacia dónde vas...</h1>
+    <div>
+        <img [src]="viaje.img" alt="">
+    </div>
+    <div>
+        <h2>{{viaje.nombre}}</h2>
+        <p>{{viaje.descripcion}}</p>
+        <a routerLink="/destinos">Ver Más</a>
+    </div>
+</div>
+<div class="eventos" id="evento">
+    <h1>Tiempo de hacer una imposibilidad</h1>
+    <div>
+        <h2>{{evento.nombre}}</h2>
+        <p>{{evento.descripcion}}</p>
+        <a routerLink="/destinos">Ver Más</a>
+    </div>
+    <div>
+        <img [src]="evento.img" alt="">
+    </div>
+    
+</div>
+<div class="eventos testimonios">
+    <h1 >Viajes que cambian realidades</h1>
+    <div *ngFor="let testimonio of testimonios">
+        <img [src]="testimonio.img" alt="">
+        <p><i>{{testimonio.frase}}</i></p>
+        <h4>{{testimonio.nombre}}</h4>
+    </div>
+</div>
+

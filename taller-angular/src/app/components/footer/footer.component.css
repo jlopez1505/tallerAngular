@@ -1,0 +1,13 @@
+.foot{
+    display: flex;
+    background: linear-gradient(0deg, rgba(195,85,34,1) 0%, rgba(245,253,45,1) 100%);
+    font-weight: bold;
+}
+.foot div{
+    padding: 3%;
+    max-width: 28%;
+}
+.foot img{
+    width: 20%;
+    margin: 5% 2%;
+}

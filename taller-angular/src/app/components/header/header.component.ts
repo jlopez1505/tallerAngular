@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
+  logo = 'assets/img/alicia-logo-tr.png';
+
 }
+

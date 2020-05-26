@@ -1,1 +1,16 @@
-<p>Acá colocarás el conteido del footer que creas pertinente de acuerdo a tu diseño</p>
+<div class="foot">
+    <div>
+        <h1>Síguenos</h1>
+        <a href="" *ngFor="let red of social"><img [src]="red" alt=""/></a>
+    </div>
+    <div>
+        <h1>{{datosPersonales}}</h1>
+        <p>Teléfono: {{datos.telefono}}</p>
+        <p>Dirección: {{datos.direccion}}</p>
+        <p>correo: {{datos.correo}}</p>
+    </div>
+    <div>
+        <h1>{{stuff}}</h1>
+        <p>{{copyright}}</p>
+    </div>
+</div>

@@ -1,0 +1,104 @@
+
+.carruselItem{
+    position: relative;
+}
+.carruselItem h2{
+    color: white;
+    text-shadow: 7px 6px 16px rgba(0,0,0,0.75);
+    margin: 0;
+}
+#drink{
+    position: absolute; 
+    top: 5%;
+    left: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+#drink img{
+    transform: rotate(45deg); 
+}
+#eat{
+    position: absolute; 
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+#eat:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+#drink:hover{
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+.slogan{
+   box-shadow: 7px 6px 16px rgba(0,0,0,0.75); 
+   padding: 5%;
+   width: 87%;
+   font-size: xx-large;
+   text-align: center;
+   font-style: italic;
+   margin: 10% auto;
+    color: gray;
+    background-color: white;
+}
+.slogan p{
+    padding: 5%;
+}
+.eventos{
+    display: flex;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(86,58,143,0) 80%);
+    margin: 20% 0;
+    /*box-shadow: 7px 6px 16px rgba(0,0,0,0.75);*/
+    flex-wrap: wrap;
+    position: relative;
+    max-height: 55vw;
+    overflow: hidden;
+}
+.eventos h1{
+    max-width: 60%;
+    font-size: 6vw;
+    padding: 4%;
+    margin: 0;
+    font-family: alice;
+    color: white;
+}
+.eventos div{
+    width: 46%;
+    padding: 2%;
+}
+.eventos img{
+    position: relative;
+    max-height: 56vw;
+}
+#viaje img{
+    top: -43%;
+    left: -65%;
+}
+#evento img{
+    top: -43%;
+    right: -23%;
+}
+.eventos h1{
+    position: relative;
+}
+.eventos h2, .eventos p, .eventos a{
+    padding: 5%;
+    text-align: justify;
+}
+#viaje h1{
+    right: -48%;
+    max-width: 55%;
+}
+.testimonios {
+    min-height: 68vw;
+    
+}
+.testimonios div{
+    max-width: 29%;
+    min-height: 60vw;
+    text-align:center;    
+}
+.testimonios p{
+    text-align:center;
+}

@@ -1,0 +1,14 @@
+.navbar{
+    background: linear-gradient(180deg, rgba(240,124,188,1) 21%, rgba(100,58,143,1) 91%);
+    display: flex;
+}
+.menu{
+    padding: 3%;
+    text-align: end;
+    margin-left:30%;
+}
+.menu a{
+    padding: 10%;
+    color: white;
+    text-decoration: none;
+}
