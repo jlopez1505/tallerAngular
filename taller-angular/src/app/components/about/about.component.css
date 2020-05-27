@@ -68,7 +68,7 @@
     box-shadow: 5px 5px 5px black;
     margin: 10%;
     font-family: alice;
-    text-shadow: 1px 1px;
+    text-shadow: 1px 1px 5px black;
     color: white;
     background-image: url("../../../assets/img/poker.png");
     background-size:contain ;
