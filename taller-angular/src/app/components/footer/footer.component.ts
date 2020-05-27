@@ -17,7 +17,7 @@ export class FooterComponent {
   correo: "gatodecheshire@elmichi.com"
  }
 
- copyright = "Ejercicio Academico, Jonathan López, todos los derechos reservados de ilustraciones y textos a sus respectivos creadores, bla bla bla, ¿quién lee esto?, no tiene ilustraciones que aburrido, bla bla bla cosas legales, bla bla bla, BICTIA 2020 bla bla bla."
+ copyright = "Ejercicio Académico, Jonathan López, todos los derechos reservados de ilustraciones y textos a sus respectivos creadores, bla bla bla, ¿quién lee esto?, no tiene ilustraciones que aburrido, bla bla bla cosas legales, bla bla bla, BICTIA 2020 bla bla bla."
 
   enlaces = ['https://www.freepik.es/fotos-vectores-gratis/logo',] /* esto va en otro lado */
 

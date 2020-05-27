@@ -1,1 +1,24 @@
-<p>about works!</p>
+<div class="contenido">
+    <h1>¿Quienes Somos?</h1>
+    <h2>{{sub}}</h2>
+    <p>{{quien}}</p>
+    <h2>¿En qué Creemos?</h2>
+    <ul>
+        <li *ngFor="let valor of valores">{{valor}}</li>
+    </ul>
+</div>
+<div class="contenido">
+<h1>Nuestas Muchosidades</h1>
+<div class="flex" *ngFor="let worker of team">
+    <img [src]="worker.img" alt="">
+    <h3>{{worker.nombre}}</h3>
+    <p>{{worker.bio}}</p>
+</div>
+</div>
+<div class="contenido">
+<h1>Partners</h1>
+<div class="flex partner" *ngFor="let partner of partners">
+    <img [src]="partner.img" alt="">
+    <h3>{{partner.nombre}}</h3>
+</div>
+</div>

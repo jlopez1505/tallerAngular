@@ -1,1 +1,32 @@
-<p>destinos works!</p>
+<h1>Destinos</h1>
+<div class="collage">
+    <div class="destinos" *ngFor="let destino of destinos">
+        <img [src]="destino.img" alt="">
+        <div [className]="estado ? 'info' : 'active'" (click)="cambiar()">
+            <h3>{{destino.nombre}}</h3>
+            <h4>Planes disponibles</h4>
+            <ul>
+                <li *ngFor="let plan of destino.planes">
+                    {{plan.nombre}}
+                </li>                  
+            </ul>
+        </div>
+    </div>
+</div>
+
+<h1>Planes</h1>
+<div class="collage">
+    <div class="destinos" *ngFor="let plan of planes">
+        <img [src]="plan.img" alt="">
+        <div [className]="estado ? 'info' : 'active'" (click)="cambiar()">
+            <h3>{{plan.nombre}}</h3>
+            <h4>Actividades disponibles</h4>
+            <ul>
+                <li *ngFor="let actividad of plan.actividades">
+                    {{actividad.nombre}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

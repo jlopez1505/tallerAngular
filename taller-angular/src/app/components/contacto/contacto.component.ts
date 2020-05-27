@@ -8,4 +8,11 @@ import {Component} from '@angular/core';
 
 export class ContactoComponent {
 
+    datos(valor){
+        
+       var datos = [];
+       datos = valor
+       alert(`Gracias ${datos[0]}, Su registro para ${datos[2]} el día ${datos[3]} ha sido exitoso, se ha enviado un correo a ${datos[1]} con toda la información. esperamos disfrute su nueva aventura.`)
+
+    }
 }

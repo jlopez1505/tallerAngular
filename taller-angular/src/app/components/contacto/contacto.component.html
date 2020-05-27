@@ -1,1 +1,8 @@
-<p>contactenos caremonda</p>
+<h1>Reservas</h1>
+<div class="form">  
+   <input type="text" placeholder="Nombre" #nombre>
+    <input type="email" placeholder="Correo" #correo>
+    <input type="text" placeholder="Lugar/plan" #lugar>
+    <input type="date" placeholder="Fecha" #fecha>
+    <input type="submit" value="Send me" (click) ="datos([nombre.value, correo.value, lugar.value, fecha.value])" >
+</div>

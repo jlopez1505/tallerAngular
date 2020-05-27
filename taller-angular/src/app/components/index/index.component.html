@@ -1,10 +1,10 @@
 <div class="carruselItem" *ngFor="let destacado of destacados">
     <img style="max-width: 100%;" [src]="destacado.img" alt="">
-    <a id="drink">
+    <a id="drink" routerLink="/contacto">
     <img [src]="iconos[0]" alt="">
     <h2>{{destacado.frase1}}</h2>
     </a>
-    <a id="eat">
+    <a id="eat" routerLink="/destinos">
     <img [src]="iconos[1]" alt="">
     <h2>{{destacado.frase2}}</h2>
     </a>

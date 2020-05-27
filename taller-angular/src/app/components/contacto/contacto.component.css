@@ -1,0 +1,19 @@
+.form{
+    min-height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgb(61, 0, 0);
+    border: red solid 2px;
+    margin: 3%;
+    color: white;
+}
+h1{
+    font-family: alice;
+    font-size: 8vw;
+    color: white;
+}
