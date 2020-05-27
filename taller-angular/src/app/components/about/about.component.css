@@ -18,10 +18,10 @@
     font-size: 6vw;
 }
 .contenido p, .contenido h2{
-    margin: 5%;
+    
 }
-.contenido ul li{
-    padding: 1%;
+.contenido ol li{
+    padding: 5%;
 }
 .flex{
     max-width: 27%;
@@ -31,4 +31,43 @@
 }
 .partner{
     max-width: 19%;
+}
+#who{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 60%, rgb(0, 0, 0) 40%);
+    max-width: 70%;
+    padding: 2%;
+    box-shadow: 7px 6px 16px rgba(0,0,0,0.75);
+    text-align: center;
+     
+}
+#who h1{
+    color: rgb(32, 1, 24);
+    margin: auto;
+    color: white;
+}
+#who p{
+    padding: 10% 15% 5% 15%;
+    margin: auto;
+}
+#who h2{
+    margin: auto;
+    font-family: alice;
+    color: white;
+}
+#valores{
+    background: none;
+}
+#valores ol{
+    column-count: 2;
+    font-size: xx-large;
+}
+#valores ol li{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin: 10%;
+    font-family: alice;
+    text-shadow: 1px 1px;
+    color: darkcyan;
 }

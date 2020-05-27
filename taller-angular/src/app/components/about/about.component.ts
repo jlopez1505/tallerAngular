@@ -12,7 +12,7 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  sub = "No los sabemos"
+  sub = "No lo sabemos"
   quien = "Al menos sabíamos quién eramos cuando despertamos esta mañana, pero creemos que debimos de haber cambiado varias veces desde entonces; en realidad un autor no entiende necesariamente el significado de su propia historia mejor que los demás. Aún así les podemos asegurar que de todas las tonterías a las que han asistido, esta será la más tonta de toda sus vidas. Así que están totalmente locos. Pero les diremos un secreto. Las mejores personas lo están";
 
   valores = [

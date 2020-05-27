@@ -13,6 +13,7 @@
     left: 5%;
     text-align: center;
     cursor: pointer;
+    text-decoration: none
 }
 #drink img{
     transform: rotate(45deg); 
@@ -22,6 +23,7 @@
     top: 5%;
     right: 5%;
     cursor: pointer;
+    text-decoration: none;
 }
 #eat:hover{
     transform: scale(1.5);
