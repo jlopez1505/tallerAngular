@@ -63,11 +63,13 @@
     font-size: xx-large;
 }
 #valores ol li{
-    background-color: white;
+    background-color: brown;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
     margin: 10%;
     font-family: alice;
     text-shadow: 1px 1px;
-    color: darkcyan;
+    color: white;
+    background-image: url("../../../assets/img/poker.png");
+    background-size:contain ;
 }
